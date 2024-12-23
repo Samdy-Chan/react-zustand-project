@@ -8,10 +8,10 @@ import styles from './index.module.scss';
 import { useCounterStore, useChannelStore, type CounterStoreType, type ChannelStoreType } from '@/store';
 
 const TestZustand: React.FC = () => {
-  // 获取 counterStore 的态变量和操作状态变量的方法
+  // 获取 counterStore 的状态变量和操作状态变量的方法
   const { count, incrCount, decrCount, asyncIncrCount }: CounterStoreType = useCounterStore();
 
-  // 获取 channelStore 的态变量和操作状态变量的方法
+  // 获取 channelStore 的状态变量和操作状态变量的方法
   const { channelList, getChannelList }: ChannelStoreType = useChannelStore();
 
   const [decrVal, setDecrVal] = useState(1);
