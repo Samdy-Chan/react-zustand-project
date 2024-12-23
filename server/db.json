@@ -1,0 +1,52 @@
+{
+  "channels": [
+    {
+      "id": "1",
+      "name": "linux"
+    },
+    {
+      "id": "2",
+      "name": "javascript"
+    },
+    {
+      "id": "3",
+      "name": "typescript"
+    },
+    {
+      "id": "4",
+      "name": "html"
+    },
+    {
+      "id": "5",
+      "name": "css"
+    },
+    {
+      "id": "6",
+      "name": "react"
+    },
+    {
+      "id": "7",
+      "name": "vue"
+    },
+    {
+      "id": "8",
+      "name": "node.js"
+    },
+    {
+      "id": "9",
+      "name": "nest.js"
+    },
+    {
+      "id": "10",
+      "name": "PHP"
+    },
+    {
+      "id": "11",
+      "name": "MySQL"
+    },
+    {
+      "id": "12",
+      "name": "python"
+    }
+  ]
+}
